@@ -1,0 +1,140 @@
+html{
+    font-family: system-iu;
+
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  body{
+    background-color:#FFCF57;
+    background: linear-gradient
+    (to top, rgb(255, 155, 24),
+     20%, #FFCF57);
+  }
+
+  /*Menú*/
+  .main1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+ }
+ 
+ .main1 a{
+  text-decoration: none;
+  text-align: right;
+  width: 160px;
+  margin: 40px 45px;
+  font-size: 27px;
+  font-family: 'Berlin Sans FB';
+  color: white;
+}
+
+#active,
+.main1 a:hover{
+  color:#ff5227;
+  transition: all 0.3s;
+}
+
+ /*logo*/
+.main1 img{
+  width: 170px;
+  height: 170px;
+  margin: 0 150px 30px 0;
+  object-fit: cover;
+}
+
+/*wrap-products*/
+  .wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .wrapcolum-2lista{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+
+  /*wrap imagenes snacks*/
+  .wrapcolum-2lista img{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+  }
+
+  .lista-snacks img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .wraptitlesection img{
+    width: 400px;
+    height: 100px;
+  }
+  
+  .wraptitlesection{
+    margin: 40px 0 30px 20px;
+  }
+  
+  /*lista snacks*/
+  .lista-snacks{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: hsl(46, 96%, 73%);
+  }
+  
+  /*Hover*/
+  .lista-snacks:hover{
+    box-shadow: 0 10px 20px 0 rgba(173, 49, 0, 0.5); 
+    transform: scale(1.07);
+    transition: all 0.5s;
+  }
+
+  .lista-snacks img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+  }
+
+  .title-snack{
+    border: 1px solid #ffc446;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 1rem 1rem;
+  }
+  
+  .precio-snack{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  @media (max-width: 680px ){
+    .column-2.lista{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+  /*Tipogarfias*/
+  .title-snack h4{
+    font-family: 'Lucida Sans Unicode';
+    font-size: 22px;
+  }
+
+  .title-snack p{
+    font-family: 'Ebrima';
+    font-size: 17px;
+  }
+
+  .precio-snack a,
+  .precio-snack span{
+    font-family: 'Lucida Sans Unicode';
+    font-size: 17px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+  }

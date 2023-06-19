@@ -1,0 +1,87 @@
+html{
+    font-family: system-iu;
+
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  body{
+    background-color:#FFCF57;
+    background: linear-gradient
+    (to top, rgb(255, 163, 43),
+     20%, #FFCF57);
+  }
+
+/*menú*/
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+ }
+ 
+ .main a{
+    text-decoration: none;
+    text-align: right;
+    width: 160px;
+    margin: 40px 45px;
+    font-size: 27px;
+    font-family: 'Berlin Sans FB';
+    color: white;
+ }
+ 
+ #active,
+ .main a:hover{
+    color:#ff5227;
+    transition: all 0.3s;
+ }
+
+ .main img{
+    width: 170px;
+    height: 170px;
+    margin: 0px 100px;
+    object-fit: cover;
+ }
+
+ /*tipografias*/
+ h1{
+   font-family: 'Edo SZ';
+   color: rgb(255, 244, 231);
+   font-size: 100px;
+ }
+
+ .puntosvent li{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   color: rgb(44, 44, 44);
+ }
+
+ .servicio{
+   margin: 150px 0 0 40px;
+ }
+
+ /*iconos*/
+
+ .iconos{
+   margin: 150px 0 0 40px;
+   display: flex;
+ }
+
+.iconos a{
+   text-decoration: none;
+   margin-left: 10px;
+   color: #ff3e0e;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .iconos img{
+   width: 30px;
+   height: 30px;
+   margin-left: 10px;
+ }
+
+ .nose p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(44, 44, 44);
+   margin-left: 40px;
+ }
+
